@@ -1,0 +1,22 @@
+
+t
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãìö¹úÿÿÿÿ
+f
+java:S1192"PDefine a constant instead of duplicating this literal "-Sorted array: " 3 times.(ÒÙÜÌ
+j
+java:S1192"ODefine a constant instead of duplicating this literal "-Orinal Array:" 3 times.(éÓÔşÿÿÿÿ
+L
+java:S1197"*Move the array designators [] to the type.(Ş€„úÿÿÿÿ8â©ËÅ‰1
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÁ¹Éøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(çƒá™üÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(•€‚Ìüÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ø¤ä§ûÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(²Ä§æùÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(¬äåÓ
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(‘œÅşÿÿÿÿ
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(¬äåÓ8ÕˆÂÅ‰1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(‘œÅşÿÿÿÿ8±ÃÅ‰1
+3
+java:S2119:"Save and re-use this "Random".(¼İÅf
+D
+java:S2140E")Use "java.util.Random.nextInt()" instead.(¶ëÂñøÿÿÿÿ
