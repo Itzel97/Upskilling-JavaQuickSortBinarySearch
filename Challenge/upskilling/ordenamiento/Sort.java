@@ -117,8 +117,8 @@ public class Sort {
         int auxiliar;
 
         while (i < j) {
-            while (arr[i] <= pivote && i < j) i++;
-            while (arr[j] > pivote) j--;
+            while (arr[i] <= pivote && i < j) i++; //buscar el primer elemento mayor que el pivote
+            while (arr[j] > pivote) j--;//buscar el primer elemento menor que el pivote
             if (i < j) {
                 auxiliar = arr[i];
                 arr[i] = arr[j];
@@ -130,10 +130,11 @@ public class Sort {
         arr[j] = pivote;
 
         if (izq < j - 1) {
-            quickSortAux(arr, izq, j - 1);
+            quickSortAux(arr, izq, j - 1); //sirve para acomodar los elementos menores que el pivote 
         }
+        
         if (j + 1 < der) {
-            quickSortAux(arr, j + 1, der);
+            quickSortAux(arr, j + 1, der);  //sirve para acomodar los elementos mayores que el pivote 
         }
 
     }

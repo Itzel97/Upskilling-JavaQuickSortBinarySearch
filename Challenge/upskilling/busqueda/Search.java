@@ -18,15 +18,15 @@ public class Search {
         while (izquierda <= derecha) {
             int m = izquierda + (derecha - izquierda) / 2;
 
-            // Check if x is present at mid
+            // Check if target is present at mid
             if (arr[m] == target)
                 return m;
 
-            // If x greater, ignore left half
+            // If target greater, ignore left half
             if (arr[m] < target)
                 izquierda = m + 1;
 
-                // If x is smaller, ignore right half
+                // If target is smaller, ignore right half
             else
                 derecha= m - 1;
         }
